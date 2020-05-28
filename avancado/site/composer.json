@@ -1,21 +1,19 @@
 {
-    "name": "juninhsilva/busca-cep",
-    "description": "Busca CEP",
-    "type": "library",
+    "name": "juninhsilva/site",
+    "description": "Site de Teste",
+    "type": "project",
     "license": "MIT",
     "authors": [{
         "name": "Gilmar Pereira da Silva Júnior",
         "email": "juninhsilva@live.com"
     }],
-    "require": {
-        "php": ">=7.2.0"
-    },
+    "require": {},
     "autoload": {
         "psr-0": {
             "Busca": "src/"
         },
         "psr-4": {
-            "JuninhSilva\\BuscaCep\\": "src/"
+            "JuninhSilva\\Site\\": "src/"
         }
     }
 }
