@@ -1,4 +1,5 @@
 <?php
+include 'services/mensagem.php';
     session_start();
 ?>
 <!DOCTYPE html>
@@ -17,7 +18,7 @@
         <div>
             <form class="form" action="./script.php" method="post">
             <?php 
-                $mensagem = isset($_SESSION['erro'])?$_SESSION['erro']:'';
+                $mensagem = getMensagem();
                 if(!empty($mensagem)){
                     echo($mensagem);
                 }
